@@ -41,12 +41,3 @@ If the model doesn't work properly, delete the mask_detector.h5 file and re-run 
 ### Step 4: Run the Application
 
 python main.py
-
-### Projdect Structure
-
-├── main.py # Main application to run real-time detection
-├── train_model.py # Script to train the model
-├── mask_detector.h5 # Trained model (auto-generated)
-├── dataset/ # Dataset for training (images + annotations)
-├── venv/ # Virtual environment (not committed to Git)
-└── README.md # Project documentation
